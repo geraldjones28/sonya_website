@@ -3,15 +3,17 @@
 }
 
 .bullet {
-    color: red;
-    border: 2px solid black;
-    margin: 30px;
-    box-sizing: border-box;
+    border: 1px solid black;
 }
 .spotify {
-    padding-top: 0px;
-    padding-right: 0px;
-    height: 30px;
-    width: 52px;
-    block-size: 20px;
+    color: green;
+}
+.apple {
+    color: blue;
+}
+.yt {
+    color: red;
+}
+.sc {
+    color: black;
 }
