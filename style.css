@@ -1,6 +1,17 @@
-.bullet {
-    color: red;
-}
 .sonya-color {
     color: rgba(255, 55, 55, 0.86);
+}
+
+.bullet {
+    color: red;
+    border: 2px solid black;
+    margin: 30px;
+    box-sizing: border-box;
+}
+.spotify {
+    padding-top: 0px;
+    padding-right: 0px;
+    height: 30px;
+    width: 52px;
+    block-size: 20px;
 }
