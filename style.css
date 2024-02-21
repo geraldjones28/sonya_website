@@ -1,26 +1,51 @@
+/* setting the alternative box model for all elements */
 html {
     box-sizing: border-box;
-  }
-  *, *:before, *:after {
+}
+*, *:before, *:after {
     box-sizing: inherit;
-  }
+}
 
 .sonya-color {
-    color: rgba(255, 55, 55, 0.86);
+    color: black;
+    background: white;
+    text-align: center;
+    margin: auto;
 }
 
-.link {
-    border: 1px solid black;
-}
 .spotify {
-    color: green;
+    color: black;
+    background: lightgreen;
 }
 .apple {
-    color: blue;
+    color: black;
+    background: lightpink;
 }
 .yt {
-    color: red;
+    color: black;
+    background: lightcoral;
 }
 .sc {
     color: black;
+    background: rgb(255, 209, 123);
+}
+
+.who {
+    color: black;
+    background-color: black;
+    :hover {
+        color: white;
+      }
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+    color: rgba(255, 55, 55, 0.86);
+    text-align: center;
+    margin: auto;
 }
