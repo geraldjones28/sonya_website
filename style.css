@@ -13,6 +13,11 @@ html {
     margin: auto;
 }
 
+p {
+    text-align: center;
+    margin: 10px;
+}
+
 .spotify {
     color: black;
     background: lightgreen;
@@ -31,10 +36,10 @@ html {
 }
 
 .who {
-    color: black;
-    background-color: black;
+    color: red;
+    background-color: red;
     :hover {
-        color: white;
+        color: black;
       }
 }
 
