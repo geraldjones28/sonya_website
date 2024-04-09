@@ -1,6 +1,6 @@
 /* setting the alternative box model for all elements */
 html {
-    box-sizing: border-box;
+    box-sizing: border-box; 
 }
 *, *:before, *:after {
     box-sizing: inherit;
@@ -48,12 +48,9 @@ p {
     background: rgb(255, 209, 123);
 }
 
-.who {
-    color: red;
-    background-color: red;
-    :hover {
-        color: black;
-      }
+.awc {
+    color: whitesmoke;
+    text-shadow: 0 0 7px red;
 }
 
 .center-img {
